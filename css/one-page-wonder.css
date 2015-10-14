@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url("../assets/breck.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -25,14 +25,20 @@ body {
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    /*background: #fff;
+    background: rgba(79, 194, 236, 0.74);
+    box-shadow: 0 0 5px 5px rgb(240, 12, 231);*/
+    text-shadow: 6px 6px 12px rgba(79, 194, 236, 0.74);
+    color: rgba(0, 0, 0, 0.78);
 }
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    /*background: #fff;
+    background: rgba(79, 194, 236, 0.74);*/
+    /*box-shadow: 0 0 5px 5px rgb(240, 12, 231);*/
+    text-shadow: 4px 4px 12px rgba(79, 194, 236, 0.74);
+    color: rgba(0, 0, 0, 0.78);
 }
 
 .featurette-divider {
@@ -41,6 +47,11 @@ body {
 
 .featurette {
     overflow: hidden;
+}
+
+.featurette-image {
+  width: 500px;
+  height: 500px;
 }
 
 .featurette-image.pull-left {
