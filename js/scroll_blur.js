@@ -16,7 +16,7 @@
 /**
  * Cache
  */
-var $content = $('header .content')
+var $content = $('header .headline')
   , $blur    = $('header .overlay')
   , wHeight  = $(window).height();
 

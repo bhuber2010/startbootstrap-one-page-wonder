@@ -23,6 +23,18 @@ header {
   /*position: fixed;*/
 }
 
+header .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url("../assets/breck.jpg") center no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0;
+}
+
 .headline {
     padding: 200px 0;
 }
