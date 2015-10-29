@@ -72,8 +72,12 @@ header .overlay {
     flex-wrap: wrap;
 }
 
-.flex-row_reverse {
+.featurette-reverse {
   flex-direction: row-reverse;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .featurette-image {
@@ -144,7 +148,7 @@ footer {
     }
 
     .featurette-image {
-        max-width: 50%;
+        max-width: 100%;
     }
 
     .featurette-image.pull-left {
